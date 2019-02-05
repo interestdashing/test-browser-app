@@ -1,0 +1,10 @@
+{
+    "initialSourcePaths": [
+        "app/changeBackground.js",
+        "app/makeRectangle.js",
+        "test/printLoadTime.js"
+    ],
+    "reloadSourcePaths": [
+        "test/printLoadTime.js"
+    ]
+}
