@@ -3,15 +3,15 @@ define("interestdashing.AppSourceCallback", ["require", "exports"], function (re
     var appSourceCallback = {
         cleared: function (repo) {
             console.log("CLEARED");
-            document.body.style.color = "black";
+            document.body.style.backgroundColor = "black";
         },
         fetched: function (repo) {
             console.log("FETCHED");
-            document.body.style.color = document.body.style.color === "yellow" ? "blue" : "yellow";
+            document.body.style.backgroundColor = document.body.style.backgroundColor === "yellow" ? "blue" : "yellow";
         },
         run: function (repo) {
             console.log("RUNNING");
-            document.body.style.color = "green";
+            document.body.style.backgroundColor = "green";
         },
     };
     return appSourceCallback;
