@@ -11,7 +11,7 @@ define("interestdashing.AppSourceCallback", ["require", "exports"], function (re
         },
         run: function (repo) {
             console.log("RUNNING");
-            document.body.style.backgroundColor = "green";
+            document.body.style.backgroundColor = "blue";
         },
     };
     return appSourceCallback;
