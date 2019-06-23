@@ -1,10 +1,20 @@
 {
+    "callbackModule": "interestdashing.AppSourceCallback",
     "initialSourcePaths": [
-        "app/changeBackground.js",
-        "app/makeRectangle.js",
-        "test/printLoadTime.js"
+        {
+            "path": [
+                "src"
+            ],
+            "searchFilter": ".*\\.js$"
+        }
     ],
-    "reloadSourcePaths": [
-        "test/printLoadTime.js"
+    "refreshInterval": 10,
+    "refreshSourcePaths": [
+        {
+            "path": [
+                "src"
+            ],
+            "searchFilter": ".*\\.js$"
+        }
     ]
 }
